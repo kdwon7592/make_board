@@ -7,6 +7,9 @@
 <title>JSP 웹 게시판</title>
 </head>
 <body>
+	<%
+		session.invalidate();
+	%>
 	<script type="text/javascript">
 		location.href = 'main.jsp';
 	</script>
